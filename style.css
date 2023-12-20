@@ -1,0 +1,91 @@
+body{
+    margin: 0px;
+    background-image: linear-gradient(to top, #031C3D, #1B4C8C);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.dq-menu ul{
+    list-style-type: none;
+    padding: 3px;
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.dq-menu ul{
+    background-color: #031C3D;
+}
+.dq-menu ul  li{
+    display: inline;
+    position: relative;
+}
+.dq-menu ul li a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+}
+.dq-menu ul li a:hover{
+    background-color:#3064a7;
+}
+.dq-menu ul ul{
+    display: none;
+    position: absolute;
+}
+.dq-menu ul li:hover ul{
+        display: block;
+} 
+.dq-menu ul ul{
+    width: 140px;    
+}
+.dq-menu ul ul li a{
+    display: block;
+}
+img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 3px solid #5090e4 ;    
+}
+div.foto{
+    text-align: center;
+    margin-top: 30px;
+}
+article{
+    padding: 0px 50px;
+}
+article > h1{
+    font-size: 22px;
+    color: #5090e4;
+}
+article >h3{
+    color: white;
+}
+article > h4{
+    color:#77acf0;
+}
+article >p{
+    color: white;
+    text-align: justify;
+    font-size: 12px;
+}
+footer{
+    background-color: #215293;
+    margin:100px 0px 0px 0px;
+}
+nav.c {
+    text-align: center;
+}
+div.f{
+    display: inline-flex;
+    padding: 5px;
+}
+svg{
+    color:white;
+}
+svg:hover{
+    color: #407bc9; 
+}
