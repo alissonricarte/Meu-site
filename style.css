@@ -27,6 +27,7 @@ body{
     text-decoration: none;
     display: inline-block;
     padding: 10px;
+    transition: all 0.4s;
 }
 .dq-menu ul li a:hover{
     background-color:#3064a7;
@@ -34,6 +35,7 @@ body{
 .dq-menu ul ul{
     display: none;
     position: absolute;
+    transition: all 0.4s;
 }
 .dq-menu ul li:hover ul{
         display: block;
@@ -88,7 +90,9 @@ div.f{
 }
 svg{
     color:white;
+    transition: all 0.4s;
 }
 svg:hover{
     color: #407bc9; 
+    transform : translateY(-5px);
 }
