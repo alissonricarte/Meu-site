@@ -1,5 +1,5 @@
 body{
-    margin: 0px;
+    margin: auto;
     background-image: linear-gradient(to top, #031C3D, #1B4C8C);
     background-repeat: no-repeat;
     background-size: cover;
@@ -44,6 +44,9 @@ body{
 .dq-menu ul ul li a{
     display: block;
 }
+main{
+    margin: 50px 0px 0px 0px;
+}
 img{
     width: 180px;
     height: 180px;
@@ -72,11 +75,12 @@ article >p{
     text-align: justify;
     font-size: 12px;
 }
-footer{
-    margin:100px 0px 0px 0px;
+#pe{
+    margin:0px 0px 0px 0px;
 }
 nav.c {
     text-align: center;
+    margin: 50px 0px 0px 0px;
 }
 div.f{
     display: inline-flex;
