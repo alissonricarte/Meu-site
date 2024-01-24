@@ -85,8 +85,8 @@ nav.c {
     margin: 50px 0px 0px 0px;
 }
 div.f{
-    display: inline-flex;
-    padding: 5px;
+    display: inline;
+    padding: 7px;
 }
 svg{
     color:white;
